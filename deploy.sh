@@ -38,5 +38,7 @@ EOF
 systemctl reenable /etc/systemd/system/fmz.service
 systemctl restart fmz
 
+
+sleep 4
 # 打印登录日志
 cat /root/log1.log
