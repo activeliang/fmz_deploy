@@ -1,7 +1,7 @@
 #! /bin/bash
 
-read -p "请输入你的FMZ的ID: " fmz_id
-read -p "请输入你的FMZ的密码: " fmz_pass 
+read -p "enter your fmz id: " fmz_id
+read -p "enter your fmz password: " fmz_pass 
 
 # 更新
 apt update
